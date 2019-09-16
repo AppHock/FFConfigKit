@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FFConfigKit'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of FFConfigKit.'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Andy_Reckless@outlook.com/FFConfigKit'
+  s.homepage         = 'https://github.com/AppHock/FFConfigKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Andy_Reckless@outlook.com' => 'andy_reckless@outlook.com' }
-  s.source           = { :git => 'https://github.com/Andy_Reckless@outlook.com/FFConfigKit.git', :tag => s.version.to_s }
+  s.author           = { 'AppHock' => 'andy_reckless@outlook.com' }
+  s.source           = { :git => 'https://github.com/AppHock/FFConfigKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
